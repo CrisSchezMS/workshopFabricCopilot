@@ -1,0 +1,8 @@
+{
+  "edges": [
+    {"from": "demo.bronze.ventas", "to": "demo.silver.ventas", "evidence": "ejemplo: notebooks/02_limpieza"},
+    {"from": "demo.silver.ventas", "to": "demo.gold.ingresos", "evidence": "ejemplo: notebooks/03_agregacion"},
+    {"from": "demo.gold.ingresos", "to": "modelo_ventas", "evidence": "ejemplo: modelo semantico"},
+    {"from": "modelo_ventas", "to": "informe_ingresos", "evidence": "ejemplo: informe Power BI"}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Corporativo Gold - ejemplo",
+  "dataColors": [
+    "#005A9E",
+    "#6B3FA0",
+    "#AA5A00",
+    "#007E74",
+    "#A4262C",
+    "#5C6B76"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#005A9E",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12,
+      "color": "#1F2937"
+    },
+    "header": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#1F2937"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10,
+      "color": "#1F2937"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "description": "Fallo intencionado para el taller.",
+    "activities": [
+      {
+        "name": "fallo_demo",
+        "type": "Fail",
+        "typeProperties": {
+          "message": "Fallo de prueba intencionado",
+          "errorCode": "DEMO"
+        }
+      }
+    ]
+  }
+}

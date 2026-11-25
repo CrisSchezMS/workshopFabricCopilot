@@ -1,0 +1,20 @@
+trigger: none
+pr: none
+
+resources:
+  repositories:
+    - repository: corporativo
+      type: git
+      name: fabric-gold-corporate-standards
+      ref: refs/heads/main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - checkout: self
+    path: s/proyecto
+  - checkout: corporativo
+    path: s/normativa
+  - script: python3 "$(Pipeline.Workspace)/s/normativa/tools/standard.py" validate --target "$(Pipeline.Workspace)/s/proyecto" --central "$(Pipeline.Workspace)/s/normativa"
+    displayName: Validar instrucciones y recursos corporativos

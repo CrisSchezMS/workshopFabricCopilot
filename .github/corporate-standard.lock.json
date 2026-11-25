@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "managed": {
+    ".azuredevops/corporativo.yml": "3114bc28b344ba5022ecfa199d15f648131e2823425f03a9f2b935b95a084e8f",
+    "block": "fe6869103fabfb8945a6644b219e7a833e4130c7a41311b7e9c627a16e68c634",
+    "corporativo/agente.md": "38f5cfdfc0049d09a0fdbd7d075ec413edd91c850bc16987e0de105e19399302",
+    "corporativo/apps.md": "ad00a6a9db0343bbf2b38e4636e548edeed499dac25c50bc3e021966b41afaee",
+    "corporativo/estilo-app.css": "d3606ba5c71436e4740e2a1c8ecdf152a0cf8f2291cf8526c5a0f60990c1a346",
+    "corporativo/reportes.md": "ece013c5957df287a12b164a850dec05ff74fa026fc7acc6e5a8f8838820b565",
+    "corporativo/tema-powerbi.json": "ac3e5415518e590dce1c8c5bfd1b81405759a97416769140cd647658a4f18506"
+  }
+}

@@ -1,0 +1,94 @@
+/* Tokens y clases de ejemplo: no sustituyen una revisión de accesibilidad. */
+:root {
+  --corp-background: #f5f7fa;
+  --corp-surface: #ffffff;
+  --corp-text: #1f2937;
+  --corp-muted: #4b5563;
+  --corp-primary: #005a9e;
+  --corp-primary-text: #ffffff;
+  --corp-border: #657686;
+  --corp-focus: #005a9e;
+  --corp-series-1: #005a9e;
+  --corp-series-2: #6b3fa0;
+  --corp-series-3: #aa5a00;
+  --corp-series-4: #007e74;
+  --corp-series-5: #a4262c;
+  --corp-series-6: #5c6b76;
+  --corp-radius: 8px;
+  --corp-space: 16px;
+  --corp-font: "Segoe UI", Arial, sans-serif;
+}
+
+.corp-app {
+  background: var(--corp-background);
+  color: var(--corp-text);
+  font-family: var(--corp-font);
+  font-size: 16px;
+  min-height: 100vh;
+  padding: var(--corp-space);
+}
+
+.corp-container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.corp-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.corp-section-title {
+  font-size: 20px;
+}
+
+.corp-caption {
+  color: var(--corp-muted);
+  font-size: 14px;
+}
+
+.corp-grid {
+  display: grid;
+  gap: var(--corp-space);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.corp-card {
+  background: var(--corp-surface);
+  border: 1px solid var(--corp-border);
+  border-radius: var(--corp-radius);
+  padding: var(--corp-space);
+}
+
+.corp-button {
+  background: var(--corp-primary);
+  border: 1px solid var(--corp-primary);
+  border-radius: var(--corp-radius);
+  color: var(--corp-primary-text);
+  cursor: pointer;
+  font: inherit;
+  min-height: 44px;
+  padding: 8px 16px;
+}
+
+.corp-button-secondary {
+  background: var(--corp-surface);
+  color: var(--corp-primary);
+}
+
+.corp-app :focus-visible {
+  outline: 3px solid var(--corp-focus);
+  outline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .corp-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .corp-grid {
+    grid-template-columns: 1fr;
+  }
+}
